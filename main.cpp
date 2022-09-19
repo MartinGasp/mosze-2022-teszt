@@ -8,12 +8,8 @@ int main()
     std::cout << '1-100 ertekek duplazasa' << std::endl;
     for (int i = 0;i<=N_ELEMENTS;i++)
     {
-        b[i] = i * 2;
-    }
-    for (int i = 0; i<=N_ELEMENTS; i++)
-    {
-        std::cout << "Ertek:" // nem írja ki a számot
-    }    
+        std::cout << "Ertek:" << b[i] = i * 2 << std::endl;
+    }   
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag; //nincs kezdő érték megadva az átlag változónak
     for (int i = 0; i < N_ELEMENTS, i++)
