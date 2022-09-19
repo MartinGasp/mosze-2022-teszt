@@ -10,7 +10,7 @@ int main()
     {
         b[i] = i * 2;
     }
-    for (int i = 0; i; i++) // rosszul van kitöltve
+    for (int i = 0; i<=N_ELEMENTS; i++)
     {
         std::cout << "Ertek:" // nem írja ki a számot
     }    
