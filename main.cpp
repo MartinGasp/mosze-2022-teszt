@@ -4,8 +4,8 @@ constexpr int N_ELEMENTS = 100;
 
 int main()
 {
-    int *b = new int[N_ELEMENTS]; // N_ELEMENTS rosszul van beíírva
-    std::cout << '1-100 ertekek duplazasa'
+    int *b = new int[N_ELEMENTS];
+    std::cout << '1-100 ertekek duplazasa' << std::endl;
     for (int i = 0;) // hiányos for ciklus
     {
         b[i] = i * 2;
