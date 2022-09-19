@@ -11,7 +11,7 @@ int main()
         std::cout << "Ertek:" << b[i] = i * 2 << std::endl;
     }   
     std::cout << "Atlag szamitasa: " << std::endl;
-    int atlag; //nincs kezdő érték megadva az átlag változónak
+    int atlag=0;
     for (int i = 0; i < N_ELEMENTS, i++)
     {
         atlag += b[i]
